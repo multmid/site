@@ -1,0 +1,88 @@
+#olhaela {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width:415px;
+    height: 500px;
+    margin-left: -207.5px;
+    margin-top: -250px;
+    background: #263D6E;
+}
+
+.logo {
+    width: 415px;
+    height: 202px;
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 90px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: url('http://static.tumblr.com/tmpaqni/LQ6oz2nwk/logo.png') no-repeat;
+    }
+
+
+
+.embreve {
+    width: 262px;
+    height: 38px;
+    padding-left: 269px;
+    padding-right: 169px;
+    padding-top: 20px;
+    position: absolute;
+    margin-top: 242px;
+    margin-left: 77px;
+    background: url('http://static.tumblr.com/tmpaqni/iXioz2o1x/embreve.png') no-repeat;
+}
+
+.embreve .constr {
+    width: 226px;
+    height: 29px;
+    padding-left: 269px;
+    padding-right: 169px;
+    padding-top: -10px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -251px;
+    background: url('http://static.tumblr.com/tmpaqni/PSeoz2o9f/constr.png') no-repeat;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;~
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+
+}
+
+.embreve:hover .constr {
+    margin-top: 35px;
+    opacity: 1;
+    -webkit-transition: all 0.2s linear;~
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#faixainf {
+    position: fixed;
+    bottom: -45px;
+    left: 0px;
+    width: 100%;
+    height: 65px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    background: #2C4C8F;
+    border-top: 2px #1B305E solid;
+    text-align: center;
+    text-shadow: 1px 2px 0px rgba(27, 48, 94, 1);
+    -webkit-transition: all 0.2s linear;~
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#faixainf:hover {
+    bottom: 0px;
+    -webkit-transition: all 0.2s linear;~
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
